@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*Home CSS*/
+.home {
+    background: url(home1.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    
+    
+}
+
+.home h1{
+    font-size: 4em;
+    font-weight: bold;
+    align-content: center;
+    
+}
+
+.home p{
+    font:italic ;
+    font-size:1.5em;
+}
+
+.home .btn1{
+    height: 45px;
+    width: 140px;
+    background: transparent;
+    background-color: yellow;
+    border: 2px solid #fff;
+    color: white;
+    outline: none;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+.home .btn2{
+    height: 45px;
+    width: 140px;
+    background: transparent;
+    background-color: blueviolet;
+    border: 2px solid #fff;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.home .btn1:hover{
+    background-color:transparent;
+}
+.home .btn2:hover{
+    background-color:transparent;
+}
+
+/*Home/Welcome CSS*/
+
+.container-welcome{
+    padding: 45px;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+.container-welcome h2{
+    
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+.container-welcome .card{
+    align-items: center;
+}
+.wel-card{
+    padding: auto;
+    padding-left: 345px;
+}
+
+.hrline{
+    
+    width: 500px;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+/*Projects CSS */
+
+.Projects h2{
+    padding: 45px;
+    text-align: center;
+    font-weight: bold;
+    font: italic;
+}
+
+.Projects .container .row{
+    padding: auto;
+    padding-left: 105px;
+}
+
+/*Pricing */
+/* Create three columns of equal width */
+.pricing h1{
+    padding: 45px;
+    text-align: center;
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
